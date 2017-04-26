@@ -1,0 +1,2 @@
+DELETE <table name>
+WHERE
