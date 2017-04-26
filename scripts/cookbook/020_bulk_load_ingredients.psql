@@ -1,0 +1,3 @@
+\copy ingredients (name, unit) FROM 'data/ingredients.csv' WITH (FORMAT csv, HEADER true)
+
+-- since there is no semicolon used for plsql commands, the bulk load statement must all be on one line
